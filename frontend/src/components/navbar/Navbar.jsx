@@ -4,7 +4,7 @@ export default function Navbar() {
     const PF = process.env.REACT_APP_PUBLIC_FOLDER ;
   return (
     <div >
-      <nav className="navbar container navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar container navbar-expand-lg">
       <img className="navbar-brand" src={`${PF}Logo.svg`} alt="Logo" />
       <button
         className="navbar-toggler"
