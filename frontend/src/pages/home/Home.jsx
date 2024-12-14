@@ -17,11 +17,11 @@ export default function Home() {
       <img style={{ boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.4)", borderRadius: "15px" }} src={`${process.env.REACT_APP_PUBLIC_FOLDER}DashboardD.png`} className=" img-fluid" alt="" />
       </div>
       <Companies />
+      <Featurs />
+      <CRM />
       
 
       <Reviews/>
-      <Featurs />
-      <CRM />
       <StartForFree/>
 
       <Asked/>
