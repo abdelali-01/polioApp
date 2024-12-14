@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { AskedData } from './AskedData';
 
 export default function AskedCard({card}) {
     const [icon , setIcon] = useState("fa-plus");
