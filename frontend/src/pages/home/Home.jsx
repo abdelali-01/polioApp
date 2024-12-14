@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <div>
       
-      <Asked/>
       <FSection />
       <div className='container p-5'>
       <img src={`${process.env.REACT_APP_PUBLIC_FOLDER}DashboardD.png`} className=" img-fluid" alt="" />
       </div>
 
+      <Asked/>
       <StartForFree bg={true}/>
     </div>
   )
