@@ -13,6 +13,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root{
+  --900 : #030712;
+  --500 : #4b5563; 
+  --100 : #e5e7eb ;
+  --25 : #f9fafb;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

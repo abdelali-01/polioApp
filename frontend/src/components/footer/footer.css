@@ -1,0 +1,19 @@
+.footerLinks p{
+    font-size: 13px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.footerLink {
+    min-width: 180px;
+}
+
+.footerLinks p:hover {
+    color: var(--900) !important;
+}
+
+
+@media (max-width : 550px) {
+    .footerBottom {
+        flex-direction: column !important;
+    }
+}
