@@ -4,6 +4,8 @@ import Asked from '../../components/asked/Asked'
 import FSection from '../../components/fSection/FSection'
 import Companies from '../../components/companies/Companies'
 import Reviews from '../../components/reviews/Reviews'
+import Featurs from '../../components/features/Featurs'
+import CRM from '../../components/CRM/CRM'
 
 
 export default function Home() {
@@ -18,6 +20,10 @@ export default function Home() {
       
 
       <Reviews/>
+      <Featurs />
+      <CRM />
+      <StartForFree/>
+
       <Asked/>
       <StartForFree bg={true}/>
     </div>
