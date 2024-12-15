@@ -1,6 +1,6 @@
 .loginPage {
     background-color: var(--25);
-    height: 100vh;
+    padding: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 20px;
-    width: 640px;
+    width: 440px;
 }
 .loginPage .formCard .btnCard{
     background-color: var(--100);
@@ -22,5 +22,26 @@
     gap: 10px;
     font-weight: 500;
     cursor: pointer;
+}
+
+.input input {
+    background-color: transparent;
+    border: 1px solid var(--500);
+    padding: 7px 20px;
+    border-radius: 12px;
+    outline: none;
+}
+
+.loginPage .formCard button {
+    border-radius: 12px !important;
+    padding: 10px;
+}
+
+.joinPolio {
+    height: 100px;
+}
+.joinPolio:hover {
+    background-color: var(--100) !important;
+    color:  #000 !important;
 }
 

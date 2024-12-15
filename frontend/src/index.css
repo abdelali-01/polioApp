@@ -21,6 +21,10 @@ body {
   --25 : #f9fafb;
 }
 
+Link {
+  text-decoration: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
