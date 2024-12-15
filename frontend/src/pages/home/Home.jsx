@@ -5,7 +5,6 @@ import FSection from '../../components/fSection/FSection'
 import Companies from '../../components/companies/Companies'
 import Reviews from '../../components/reviews/Reviews'
 import Featurs from '../../components/features/Featurs'
-import CRM from '../../components/CRM/CRM'
 import Integration from '../../components/integration/Integration'
 import Analyses from '../../components/Analyses/Analyses'
 
@@ -20,13 +19,12 @@ export default function Home() {
       </div>
       <Companies />
       <Featurs />
-      <CRM />
+      <StartForFree/>
       <Analyses />
       
       
       <Integration/>
       <Reviews/>
-      <StartForFree/>
 
       <Asked/>
       <StartForFree bg={true}/>

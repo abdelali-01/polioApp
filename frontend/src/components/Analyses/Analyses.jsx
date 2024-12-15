@@ -1,10 +1,12 @@
+import CRM from '../CRM/CRM';
 import './analyses.css'
 
 export default function Analyses(){
     const PTH = process.env.REACT_APP_PUBLIC_FOLDER ;
     return (
     <div style={{backgroundColor : "#f9fafb" , padding:30}}>
-        <div className="container   " >
+        <CRM/>
+        <div className="container" >
               <div className="row mb-2   sz" >
                 <div className="col-8 mx-2 cardA pt-2  "  >
                       <h4>Hyper-manage operations with rich analytics</h4>
