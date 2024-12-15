@@ -1,0 +1,11 @@
+.cardA {
+    background-color: white;
+    border-radius: 10px  ;
+}
+.img{
+    border-radius: 10px ;
+}
+.sz{
+    max-height: 500px ;
+    overflow: hidden;
+}
