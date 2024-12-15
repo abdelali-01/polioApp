@@ -6,6 +6,7 @@ import Companies from '../../components/companies/Companies'
 import Reviews from '../../components/reviews/Reviews'
 import Featurs from '../../components/features/Featurs'
 import CRM from '../../components/CRM/CRM'
+import Analyses from '../../components/Analyses/Analyses'
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Companies />
       <Featurs />
       <CRM />
+      <Analyses />
       
 
       <Reviews/>
