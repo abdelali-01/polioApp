@@ -1,0 +1,26 @@
+.loginPage {
+    background-color: var(--25);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginPage .formCard {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+    width: 640px;
+}
+.loginPage .formCard .btnCard{
+    background-color: var(--100);
+    padding:10px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
